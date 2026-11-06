@@ -14,6 +14,9 @@ st.set_page_config(
     layout="wide",
 )
 
+AUTOR = "Estrugo Perez Valeria Isabel"
+MATERIA = "Métodos Numéricos"
+
 CYAN, PINK, LIME, VIOLET, AMBER = "#22d3ee", "#f472b6", "#a3e635", "#a78bfa", "#fbbf24"
 
 st.markdown(
@@ -189,7 +192,8 @@ st.markdown('<h1 class="titulo">🐾 Refugio Huellitas</h1>', unsafe_allow_html=
 st.markdown(
     '<p class="subtitulo">Modelando la población de un refugio de mascotas con una '
     "ecuación diferencial · Comparación de <b>Heun</b>, <b>Runge-Kutta 4</b> y la "
-    "<b>solución analítica</b></p>",
+    "<b>solución analítica</b><br>"
+    f"<span style='color:#22d3ee'>👤 {AUTOR} · {MATERIA}</span></p>",
     unsafe_allow_html=True,
 )
 
@@ -555,4 +559,4 @@ with tabs[5]:
         )
 
 st.markdown("---")
-st.caption("Desafío individual de Métodos Numéricos · Parámetros hipotéticos · Hecho con Streamlit 🐾")
+st.caption(f"Desafío individual de {MATERIA} · {AUTOR} · Parámetros hipotéticos · Hecho con Streamlit 🐾")
