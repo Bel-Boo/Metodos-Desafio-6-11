@@ -1,9 +1,9 @@
 # 🐾 Refugio Huellitas – EDO con Heun y RK4
 
-Desafío individual de Métodos Numéricos · Autor: [TU NOMBRE COMPLETO]
+Desafío individual de Métodos Numéricos · Autor: Valeria Isabel Estrugo Perez
 
 ## 🌐 Probar la aplicación (sin instalar nada)
-👉 **[PEGA AQUÍ EL LINK DE STREAMLIT]**
+👉 https://metodos-desafio-6-11-oksbccfatym5cwdrnvcvsq.streamlit.app/
 
 Se abre directo en el navegador.
 
